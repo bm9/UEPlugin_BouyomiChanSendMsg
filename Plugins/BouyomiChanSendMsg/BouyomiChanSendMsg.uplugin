@@ -1,0 +1,22 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "BouyomiChan Send Message Plugin (alpha Ver.)",
+	"Version" : 1,
+	"VersionName" : "0.2.0",
+	"CreatedBy" : "bm9",
+	"EngineVersion" : "4.15.0",
+	"Description" : "Send Message for BouyomiChan(http://chi.usamimi.info/Program/Application/BouyomiChan/). Using Socket API.",
+	"Category" : "Messaging",
+	"EnabledByDefault" : true,
+	"IsBetaVersion": true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "BouyomiChanSendMsg",
+            "Type" : "RunTime",
+			"LoadingPhase" : "PreDefault"
+		}
+	]
+}
